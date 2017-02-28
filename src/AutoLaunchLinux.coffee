@@ -16,9 +16,9 @@ module.exports =
         data = """[Desktop Entry]
                 Type=Application
                 Version=1.0
-                Name=#{appName}
-                Comment=#{appName}startup script
-                Exec=#{appPath}#{hiddenArg}
+                Name="#{appName}"
+                Comment="#{appName} Startup Script"
+                Exec="#{appPath}" #{hiddenArg}
                 StartupNotify=false
                 Terminal=false"""
 
